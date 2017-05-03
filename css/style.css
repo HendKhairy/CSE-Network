@@ -726,4 +726,26 @@ body{
 	color: #fff;
 	transition: 0.5s ease-in-out;
 	}
+	@media(max-width: 992px){
+		.footer{
+			height: 700px;
+			margin-top: 250px;
+			margin-left: 0px;
+		}
+		.footer .icons ul li{
+			float: left;
+			padding: 5px;
+			
+		}
+		.footer .icons ul{
+			margin-left: 200px;
+
+		}
+	}
+	@media(max-width: 750px){
+		.footer .icons ul{
+			margin-left: 60px;
+
+		}
+	}
 /*Footer end*/
